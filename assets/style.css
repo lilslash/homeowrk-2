@@ -1,89 +1,40 @@
-* {
+:root {
     box-sizing: border-box;
-    margin: 0px;
-    
-  }
+    margin: 0;
+    flex-wrap: wrap;
+background-color: #2f345c;
+}
 body{
-    background-color: #5050AF ;
+    background-color: #2f345c
 }
-  header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 35px;
-  }
-  .navbar {
-    overflow: hidden;
-    background-color: slategrey;
-  }
-  .navbar a {
+.aboutMe {
     float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .left-side {
-    float: left;
-    width: 20%;
-    border-right: slategray solid;
-    height: 2000px;
-    padding-left: 1%;
-    margin: auto;
-    justify-content: center;
-    /* flex-wrap: wrap;
-    display: flex; */
-  }
-.navbar-items:hover {
-    background-color: maroon;
-    -color: slategray;
-}
-.navbar-items:active {
-    background-color: black;
-}
-.column {
-    float: left;
-    padding: 20px;
-    border-bottom: solid slategrey;
-    margin: auto;
-    justify-content: center;
-    /* flex-wrap: wrap;
-    flex-flow: row; */
-
-}
-.footer {
-    padding: 35px;
-    background-color: slategrey;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none;
-    float: right;
-    width: 100%;
-    text-align: center;
-  }
-  .contact-info {
-      font-size: 15px;
-      position: relative;
-      text-decoration: none;
-  }
-#contact-info:hover {
-    color: white;
-}
-#contact-info:active {
-    color: black;
-}
-.vert {
-    font-size: 30px;
-    /* writing-mode: vertical-rl;
-    text-orientation: upright; */
-    /* flex-direction: column; */
-}
-@media screen and (max-width: 768px) {
-.shrink{
-    flex-direction: column;
-    flex-shrink: 3;
-    justify-content: center;
-}
-      
-
+    display: flex;
+    justify-content: right;
+    background-color: 	#4935cb;
+    color: 	#e2f7fd;
   
+}
+
+.hide{
+    display: none;
+}
+
+.header {
+    background-color: #ccccff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid #4935cb thick;
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.stats {
+    text-shadow: 1px 1px black;
+}
+.miniTxt{
+    color: #CC1F36;
+    text-shadow: 1px 1px #28060A;
+
+}
