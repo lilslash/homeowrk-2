@@ -1,6 +1,6 @@
 ## Brand New Portfolio
 
-!![screenshot](imgs/site.png)  
+!![screenshot](assets/img/site.png)  
 
 Brand new Portfolio page now rebuilt from bootstrap along with workring links to my GitHub and Linkedin profile
 
